@@ -5,7 +5,7 @@ if (!suppliedPublicKey) {
   throw new Error("Provide a public key to check the balance of!");
 }
  
-const connection = new Connection("https://api.mainnet-beta.solana.com", "confirmed");
+const connection = new Connection("https://api.devnet.solana.com", "confirmed");
  
 const publicKey = new PublicKey(suppliedPublicKey);
  
